@@ -24,6 +24,7 @@ end
 gem 'jquery-rails'
 
 group :development, :test do
+  gem 'database_cleaner'
   gem 'cucumber-rails'
 end
 
