@@ -1,0 +1,4 @@
+<div>
+  <div><%= product.name %></div>
+  <div><%= product.price %></div>
+  <div><%= link_to 'Add to cart', shopping_cart_path(:product_id => product), :method => 'POST' %></div>
