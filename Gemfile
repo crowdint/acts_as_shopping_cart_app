@@ -29,5 +29,7 @@ gem 'acts_as_shopping_cart'
 group :development do
   gem 'cucumber-rails', require: false
   gem 'database_cleaner'
+  gem 'rspec'
+  gem 'selenium-webdriver'
   gem 'spring'
 end
