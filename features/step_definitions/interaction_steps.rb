@@ -3,5 +3,5 @@ When /^I click "([^"]*)"$/ do |link_text|
 end
 
 Then /^I should see "([^"]*)"$/ do |text|
-  page.should have_content text
+  expect(page).to have_content text
 end
